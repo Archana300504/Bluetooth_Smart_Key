@@ -21,6 +21,8 @@ Mobile Phone → Bluetooth → ESP32 → Buzzer
 3. Connecting Wires
 4. Power Supply
 
+<img width="451" height="362" alt="image" src="https://github.com/user-attachments/assets/40caf30d-2c0f-438e-b987-47a95356e31e" />
+
 # Software Tools
 1. Arduino IDE
 2. ESP32 BluetoothSerial Library
@@ -33,12 +35,13 @@ Mobile Phone → Bluetooth → ESP32 → Buzzer
 4. ESP32 receives the command and activates the buzzer.
 5. The buzzer sounds, helping locate the key.
 
+<img width="975" height="1296" alt="image" src="https://github.com/user-attachments/assets/e3781b98-22dd-4e73-b64c-c6c1004f4e34" />
+
+
 # Results
 - Bluetooth communication was established successfully.
 - The buzzer was triggered reliably upon receiving the `FIND` command.
 - Serial monitor confirmed correct command reception.
-
-# IMAGES
 
 <img width="975" height="576" alt="image" src="https://github.com/user-attachments/assets/ca889de6-ffef-4b74-b5c8-142fd0bd2508" />
 <img width="983" height="683" alt="image" src="https://github.com/user-attachments/assets/4752f5a4-5c0b-46a3-9d79-8af55385a1db" />
@@ -51,10 +54,11 @@ Mobile Phone → Bluetooth → ESP32 → Buzzer
 4. Implement low-power sleep mode
 
 # Repository Structure
-- `Smart_key.ino`– ESP32 source code
-- `hardware` – Circuit diagram
-- `results` – Output proof
-- `README.md` – Project documentation
+1. `Smart_key.ino`– ESP32 source code
+2. `Smart key circuit diagram.png` – Circuit diagram
+3. `Smart_key_Hardware.jpeg`-Real time Hardware circuit
+4. `results 1.png, results 2.png, results 3.png` – Output proof
+5. `README.md` – Project documentation
 
 # Author
 Archana Devi P M  
