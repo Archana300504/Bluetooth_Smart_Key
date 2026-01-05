@@ -51,7 +51,7 @@ Mobile Phone → Bluetooth → ESP32 → Buzzer
 4. Implement low-power sleep mode
 
 # Repository Structure
-- `Smart_key.ino' – ESP32 source code
+- `Smart_key.ino`– ESP32 source code
 - `hardware` – Circuit diagram
 - `results` – Output proof
 - `README.md` – Project documentation
